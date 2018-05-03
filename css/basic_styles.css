@@ -1,3 +1,18 @@
 body {
-	background-color: deeppink;
+	background-color: mintcream;
+}
+
+.name {
+	display: flex;
+	justify-content: space-around;
+}
+
+.blurb {
+	/*want to change this so it always takes up the height of the first screen*/
+	background-color: salmon;
+	height: 500px;
+}
+.about {
+	max-width: 900px;
+	margin: 20px auto;
 }
