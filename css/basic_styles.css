@@ -9,10 +9,36 @@ body {
 
 .blurb {
 	/*want to change this so it always takes up the height of the first screen*/
-	background-color: salmon;
 	height: 500px;
 }
+
 .about {
 	max-width: 900px;
 	margin: 20px auto;
+}
+
+.feature {
+	min-height: 400px;
+}
+
+.feature-long {
+
+	background-color: blue;
+}
+
+.multi {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.feature-short {
+	width: 100%;
+	background-color: red;
+	border: 1px solid white;
+}
+
+@media(min-width:1020px){
+	.feature-short {
+		width: 50%;
+	}
 }
