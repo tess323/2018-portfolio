@@ -1,5 +1,12 @@
 body {
-	background-color: mintcream;
+	background-color:#F8F8FF;
+}
+
+p {
+	font-family: comfortaa;
+	font-size: 1.2em;
+	line-height: 1.7em;
+
 }
 
 
@@ -9,13 +16,15 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 35px;
-  background-color:#76288D;
+  height: 25px;
+  /*night*/
+  background-color:#072A24;
   z-index: 999;
 }
 .progress{
-  height: 35px;
-  background: #00FF7C;
+  height: 25px;
+  /*blush*/
+  background:#FEC0c1;
   width: 0;
   transition: width 0.5s;
   border-radius: 0px;
@@ -44,8 +53,8 @@ body {
 }
 
 .feature-long {
-
-	background-color: blue;
+	/*JUNIPER*/
+	background-color: #689C97;
 }
 
 .multi {
@@ -55,12 +64,13 @@ body {
 
 .feature-short {
 	width: 100%;
-	background-color: red;
+	/*succulent*/
+	background-color: #7FB174;
 	border: 1px solid white;
 }
 
 .feature-1 {
-	/*background-image: url('/images/women-new.jpg');*/
+	background-image: url('/images/women-new.jpg');
 }
 
 @media(min-width:1020px){
