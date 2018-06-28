@@ -1,4 +1,4 @@
-console.log('work bitch');
+console.log('work');
 
 function updateProgress(num1, num2){
  var percent = Math.ceil( num1 / num2 * 100 ) + '%';
@@ -11,3 +11,9 @@ window.addEventListener('scroll', function(){
  var height = document.body.getBoundingClientRect().height - window.innerHeight;
  updateProgress(top, height);
 });
+
+window.onload=function(){
+	document.getElementById('feature-2').addEventListener('click', function() {
+	    location.href = 'http:/www.fuseiq.com'
+	}, false);
+}

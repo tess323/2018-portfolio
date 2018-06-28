@@ -29,12 +29,18 @@ h1 {
 h2 {
 	font-size: 3em;
 	font-weight: 800;
-	margin-top: 11%;
 	@media only screen and (min-width: 768px) {
 		font-size: 5em;
 	}
 }
 
+h5 {
+	font-family: comfortaa;
+	font-size: 1.8em;
+	line-height: 2.1em;
+	color: #554F4B;
+
+}
 /*progress bar*/
 .progressContainer{
   position: fixed;
@@ -83,7 +89,7 @@ h2 {
 
 @media only screen and (min-width: 768px) {
 	.blurb {
-		height: 500px;
+		height: 550px;
 	}
 
 	.mobile-name {
@@ -107,6 +113,9 @@ h2 {
 
 .feature {
 	min-height: 400px;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
 }
 
 .feature a {
