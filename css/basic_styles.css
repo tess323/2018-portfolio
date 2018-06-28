@@ -1,14 +1,39 @@
 body {
-	background-color:#F8F8FF;
+	background-color:white;
 }
+
+
 
 p {
 	font-family: comfortaa;
 	font-size: 1.2em;
 	line-height: 1.7em;
+	color: #554F4B;
 
 }
 
+h1,
+h2,
+h3,
+h3 a {
+	font-family: Chivo;
+	color: #554F4B;
+	background-color: transparent;
+}
+
+h1 {
+	font-size: 3.5em;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 800;
+	margin-top: 11%;
+	@media only screen and (min-width: 768px) {
+		font-size: 5em;
+	}
+}
 
 /*progress bar*/
 .progressContainer{
@@ -21,10 +46,11 @@ p {
   background-color:#072A24;
   z-index: 999;
 }
+
 .progress{
   height: 25px;
   /*blush*/
-  background:#FEC0c1;
+  background:#ECD7DC;
   width: 0;
   transition: width 0.5s;
   border-radius: 0px;
@@ -38,18 +64,56 @@ p {
 	margin-top: 3%;
 }
 
+.mobile-name {
+	text-align: center;
+}
+
+.desktop-name {
+	display: none;
+}
+
 .blurb {
 	/*want to change this so it always takes up the height of the first screen*/
-	height: 500px;
+	height: 700px;
+	padding:20px;
+/*	background-image: url('../images/cactus.jpg');*/
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+@media only screen and (min-width: 768px) {
+	.blurb {
+		height: 500px;
+	}
+
+	.mobile-name {
+		display: none;
+	
+	}
+
+	.desktop-name {
+		display: block;
+	}
 }
 
 .about {
-	max-width: 900px;
+	max-width: 700px;
 	margin: 20px auto;
+}
+
+.about p {
+	margin-top: 15%;
 }
 
 .feature {
 	min-height: 400px;
+}
+
+.feature a {
+	text-decoration: none;
+}
+.feature p.hover:hover {
+	text-decoration: none;
 }
 
 .feature-long {
@@ -60,17 +124,15 @@ p {
 .multi {
 	display: flex;
 	flex-wrap: wrap;
+	background: white;
 }
 
 .feature-short {
 	width: 100%;
 	/*succulent*/
 	background-color: #7FB174;
-	border: 1px solid white;
-}
-
-.feature-1 {
-	background-image: url('/images/women-new.jpg');
+	width: 100%;
+	padding: 5px;
 }
 
 @media(min-width:1020px){
@@ -78,3 +140,57 @@ p {
 		width: 50%;
 	}
 }
+
+.feature h2 {
+	text-align: center;
+	color: white;
+
+}
+
+.feature-1 {
+	background-image: linear-gradient(to right top, #689c97, #73a9a0, #80b5a8, #8dc2b0, #9bcfb8);
+}
+
+.feature-2,
+.feature-6 {
+	background: white;
+	border: 3px solid #689C97;
+	margin: 20px;
+}
+
+.feature-2 h2,
+.feature-6 h2  {
+	color: #072A24;
+}
+
+@media(min-width:1020px){
+	.feature-2,
+	.feature-6 {
+		 width: 46.75%;
+	}
+}
+
+
+.feature-3,
+.feature-5 {
+	background-image: linear-gradient(to left bottom, #7fb174, #70ad81, #67a88c, #65a393, #689c97);
+}
+
+.feature-3 h2,
+.feature-5 h2{
+	font-family: comfortaa;
+}
+
+.feature-4,
+.feature-7 {
+	background-image: linear-gradient(to left bottom, #072a24, #1e443e, #36605a, #4e7d78, #689c97);
+}
+
+
+/*hover style*/
+.hover {
+	color: white;
+	margin: 0 auto;
+	text-decoration: none;
+}
+

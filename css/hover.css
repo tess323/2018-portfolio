@@ -1,0 +1,14 @@
+/*hiding hover text*/
+.feature-1 .hover{
+	display: none;
+}
+
+/*displaying hover text on hover*/
+.feature-1:hover .hover{
+	display: block;
+}
+
+/*hiding normal text on hover*/
+.feature-1:hover .normal {
+	display: none;
+}
