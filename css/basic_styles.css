@@ -36,9 +36,10 @@ h2 {
 
 h5 {
 	font-family: comfortaa;
-	font-size: 1.8em;
-	line-height: 2.1em;
+	font-size: 1.6em;
+	line-height: 1.8em;
 	color: #554F4B;
+	padding:20px;
 
 }
 /*progress bar*/
@@ -80,7 +81,7 @@ h5 {
 
 .blurb {
 	/*want to change this so it always takes up the height of the first screen*/
-	height: 700px;
+	height: 900px;
 	padding:20px;
 /*	background-image: url('../images/cactus.jpg');*/
 	background-repeat: no-repeat;
@@ -105,10 +106,12 @@ h5 {
 .about {
 	max-width: 700px;
 	margin: 20px auto;
+	border: 3px solid #689C97;
+    padding: 20px;
 }
 
 .about p {
-	margin-top: 15%;
+	margin-top: 5%;
 }
 
 .feature {
@@ -118,12 +121,6 @@ h5 {
   	justify-content: center;
 }
 
-.feature a {
-	text-decoration: none;
-}
-.feature p.hover:hover {
-	text-decoration: none;
-}
 
 .feature-long {
 	/*JUNIPER*/
@@ -201,5 +198,11 @@ h5 {
 	color: white;
 	margin: 0 auto;
 	text-decoration: none;
+	text-align: center;
+}
+
+.feature-2 .hover,
+.feature-6 .hover {
+	color: #072A24;
 }
 

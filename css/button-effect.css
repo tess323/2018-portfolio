@@ -1,4 +1,4 @@
-.hvr-shutter-out-vertical {
+/*.hvr-shutter-out-vertical {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -41,4 +41,4 @@
 .hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
-}
+}*/

@@ -1,0 +1,18 @@
+.modal-content {
+	border-radius: 0;
+    height: 300px;
+    margin: 20px;
+   	border: none;
+   	background-image: linear-gradient(to left bottom, #7fb174, #70ad81, #67a88c, #65a393, #689c97);
+}
+
+.modal-header,
+.modal-footer {
+	border: none;
+
+}
+
+.modal-title {
+	color: white;
+	text-align: center;
+}

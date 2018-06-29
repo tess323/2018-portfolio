@@ -1,14 +1,46 @@
 /*hiding hover text*/
-.feature-1 .hover{
+.feature-1 .hover,
+.feature-2 .hover,
+.feature-3 .hover,
+.feature-4 .hover,
+.feature-5 .hover,
+.feature-6 .hover,
+.feature-7 .hover,
+.feature-8 .hover{
 	display: none;
+	transition-timing-function: ease-in;
+	transition-delay: 3s;
 }
 
 /*displaying hover text on hover*/
-.feature-1:hover .hover{
+.feature-1:hover .hover,
+.feature-2:hover .hover,
+.feature-2:hover .hover,
+.feature-3:hover .hover,
+.feature-4:hover .hover,
+.feature-5:hover .hover,
+.feature-6:hover .hover,
+.feature-7:hover .hover,
+.feature-8:hover .hover{
 	display: block;
+	transition-timing-function: ease-in;
+	transition-delay: 3s;
 }
 
 /*hiding normal text on hover*/
-.feature-1:hover .normal {
+.feature-1:hover .normal,
+.feature-2:hover .normal ,
+.feature-3:hover .normal ,
+.feature-4:hover .normal ,
+.feature-5:hover .normal ,
+.feature-6:hover .normal ,
+.feature-7:hover .normal ,
+.feature-8:hover .normal {
 	display: none;
+}
+
+
+.feature-short a:hover,
+.long a:hover {
+	text-decoration: none !important;
 }

@@ -13,7 +13,5 @@ window.addEventListener('scroll', function(){
 });
 
 window.onload=function(){
-	document.getElementById('feature-2').addEventListener('click', function() {
-	    location.href = 'http:/www.fuseiq.com'
-	}, false);
+	// js here
 }
