@@ -42,6 +42,15 @@ h5 {
 	padding:20px;
 
 }
+
+button {
+	display: block;
+	color:white;
+	background-color: #072A24;
+	margin: 0 auto;
+	border:0;
+	margin-top: 10px;
+}
 /*progress bar*/
 .progressContainer{
   position: fixed;
@@ -56,8 +65,7 @@ h5 {
 
 .progress{
   height: 25px;
-  /*blush*/
-  background:#ECD7DC;
+  background:#689C97;
   width: 0;
   transition: width 0.5s;
   border-radius: 0px;
@@ -153,8 +161,7 @@ h5 {
 
 }
 
-.feature-1,
-.feature-7 {
+.feature-1{
 	background-image: linear-gradient(to right top, #689c97, #73a9a0, #80b5a8, #8dc2b0, #9bcfb8);
 }
 
@@ -189,7 +196,7 @@ h5 {
 }
 
 .feature-4,
-footer{
+.feature-7 {
 	background-image: linear-gradient(to left bottom, #072a24, #1e443e, #36605a, #4e7d78, #689c97);
 }
 
@@ -208,7 +215,55 @@ footer{
 }
 
 
-.footer {
-	min-height: 300px;
+footer {
+	min-height: 200px !important;
+	background-color: white;
+	border: 3px solid #689C97;
+	margin: 15px;
+
 }
 
+@media only screen and (min-width: 768px) {
+	footer {
+		display: -webkit-box !important;
+	}
+}
+
+.contact-info {
+	margin-left: 5%;
+}
+
+.contact-info h3,
+.contact-info h5 {
+	color: #072A24;
+	padding:0;
+}
+
+
+footer .social-links ul {
+	list-style: none;
+	display: flex;
+}
+
+footer .social-links ul li {
+	padding-right: 10px;
+}
+
+@media(min-width:1020px){
+	footer .social-links ul {
+		margin-right: 13%;
+    	margin-top: 11%;
+    	position: absolute;
+    	right: -86px;
+	}
+}
+
+.social-links a{
+	font-size: 30px;
+	color:#072A24 !important;
+}
+
+
+footer .social-links ul li {
+
+}

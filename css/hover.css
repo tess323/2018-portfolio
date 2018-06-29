@@ -44,3 +44,13 @@
 .long a:hover {
 	text-decoration: none !important;
 }
+
+.name a {
+	padding: 5px 10px !important
+}
+
+.name a:hover {
+    background: #072A24!important;
+    color: white!important;
+    text-decoration: none;
+}
