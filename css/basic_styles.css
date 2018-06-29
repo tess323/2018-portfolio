@@ -153,7 +153,8 @@ h5 {
 
 }
 
-.feature-1 {
+.feature-1,
+.feature-7 {
 	background-image: linear-gradient(to right top, #689c97, #73a9a0, #80b5a8, #8dc2b0, #9bcfb8);
 }
 
@@ -188,7 +189,7 @@ h5 {
 }
 
 .feature-4,
-.feature-7 {
+footer{
 	background-image: linear-gradient(to left bottom, #072a24, #1e443e, #36605a, #4e7d78, #689c97);
 }
 
@@ -204,5 +205,10 @@ h5 {
 .feature-2 .hover,
 .feature-6 .hover {
 	color: #072A24;
+}
+
+
+.footer {
+	min-height: 300px;
 }
 
